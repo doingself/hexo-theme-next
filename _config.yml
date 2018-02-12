@@ -45,8 +45,9 @@ cache:
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
+  #small: /images/favicon-16x16-next.png
+  small: /images/favicon-32x32-next.ico
+  medium: /images/favicon-32x32-next.ico
   apple_touch_icon: /images/apple-touch-icon-next.png
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
@@ -178,7 +179,7 @@ social_icons:
   Weibo: weibo
   开源中国: bookmark
   QQ: qq
-  Wechat: wechat
+  Wechat: weixin
 
 # Follow me on GitHub banner in right-top corner.
 # Usage: `permalink || title`
@@ -199,7 +200,7 @@ links:
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
 #avatar: /images/avatar.gif
-avatar: /avatar.jpeg
+avatar: /images/avatar.jpeg
 
 # Table Of Contents in the Sidebar
 toc:
